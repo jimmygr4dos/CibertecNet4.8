@@ -1,0 +1,11 @@
+C:\Users\jimmy\source\repos\CibertecFinal\Cibertec.Models\bin\Debug\Cibertec.Models.dll
+C:\Users\jimmy\source\repos\CibertecFinal\Cibertec.Models\bin\Debug\Cibertec.Models.pdb
+C:\Users\jimmy\source\repos\CibertecFinal\Cibertec.Models\bin\Debug\Dapper.Contrib.dll
+C:\Users\jimmy\source\repos\CibertecFinal\Cibertec.Models\bin\Debug\Dapper.dll
+C:\Users\jimmy\source\repos\CibertecFinal\Cibertec.Models\bin\Debug\Dapper.xml
+C:\Users\jimmy\source\repos\CibertecFinal\Cibertec.Models\bin\Debug\Dapper.Contrib.xml
+C:\Users\jimmy\source\repos\CibertecFinal\Cibertec.Models\obj\Debug\Cibertec.Models.csproj.AssemblyReference.cache
+C:\Users\jimmy\source\repos\CibertecFinal\Cibertec.Models\obj\Debug\Cibertec.Models.csproj.CoreCompileInputs.cache
+C:\Users\jimmy\source\repos\CibertecFinal\Cibertec.Models\obj\Debug\Cibertec.Models.csproj.CopyComplete
+C:\Users\jimmy\source\repos\CibertecFinal\Cibertec.Models\obj\Debug\Cibertec.Models.dll
+C:\Users\jimmy\source\repos\CibertecFinal\Cibertec.Models\obj\Debug\Cibertec.Models.pdb

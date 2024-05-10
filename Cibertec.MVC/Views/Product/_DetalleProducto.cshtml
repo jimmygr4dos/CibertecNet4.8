@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Cibertec.MVC.Models.VmProduct>
+
+<div>
+    <h2>Detalle del Producto</h2>
+    </hr>
+    <div class="table-responsive">
+        <table class="table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">ProductID</th>
+                    <th scope="col">Producto</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(var productvm in Model)
+                {
+                    <tr>
+                        <td>@productvm.ProductID</td>
+                        <td>@productvm.Producto</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+<p>
+    @Html.ActionLink("Regresar a Seleccionar", "Lista") |
+    @Html.ActionLink("Listado de Productos", "Index") 
+</p>

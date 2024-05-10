@@ -1,0 +1,6 @@
+C:\Users\jimmy\source\repos\CibertecFinal\Cibertec.Repositories\bin\Debug\Cibertec.Repositories.dll
+C:\Users\jimmy\source\repos\CibertecFinal\Cibertec.Repositories\bin\Debug\Cibertec.Repositories.pdb
+C:\Users\jimmy\source\repos\CibertecFinal\Cibertec.Repositories\obj\Debug\Cibertec.Repositories.csproj.AssemblyReference.cache
+C:\Users\jimmy\source\repos\CibertecFinal\Cibertec.Repositories\obj\Debug\Cibertec.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\jimmy\source\repos\CibertecFinal\Cibertec.Repositories\obj\Debug\Cibertec.Repositories.dll
+C:\Users\jimmy\source\repos\CibertecFinal\Cibertec.Repositories\obj\Debug\Cibertec.Repositories.pdb

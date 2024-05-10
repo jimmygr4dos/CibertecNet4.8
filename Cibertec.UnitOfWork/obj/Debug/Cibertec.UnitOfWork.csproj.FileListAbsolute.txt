@@ -1,0 +1,17 @@
+C:\Users\jimmy\source\repos\CibertecFinal\Cibertec.UnitOfWork\bin\Debug\Cibertec.UnitOfWork.dll
+C:\Users\jimmy\source\repos\CibertecFinal\Cibertec.UnitOfWork\bin\Debug\Cibertec.UnitOfWork.pdb
+C:\Users\jimmy\source\repos\CibertecFinal\Cibertec.UnitOfWork\bin\Debug\Cibertec.Repositories.Northwind.dll
+C:\Users\jimmy\source\repos\CibertecFinal\Cibertec.UnitOfWork\bin\Debug\Cibertec.Repositories.dll
+C:\Users\jimmy\source\repos\CibertecFinal\Cibertec.UnitOfWork\bin\Debug\Cibertec.Models.dll
+C:\Users\jimmy\source\repos\CibertecFinal\Cibertec.UnitOfWork\bin\Debug\Dapper.Contrib.dll
+C:\Users\jimmy\source\repos\CibertecFinal\Cibertec.UnitOfWork\bin\Debug\Dapper.dll
+C:\Users\jimmy\source\repos\CibertecFinal\Cibertec.UnitOfWork\bin\Debug\Cibertec.Repositories.Northwind.pdb
+C:\Users\jimmy\source\repos\CibertecFinal\Cibertec.UnitOfWork\bin\Debug\Cibertec.Repositories.pdb
+C:\Users\jimmy\source\repos\CibertecFinal\Cibertec.UnitOfWork\bin\Debug\Cibertec.Models.pdb
+C:\Users\jimmy\source\repos\CibertecFinal\Cibertec.UnitOfWork\bin\Debug\Dapper.Contrib.xml
+C:\Users\jimmy\source\repos\CibertecFinal\Cibertec.UnitOfWork\bin\Debug\Dapper.xml
+C:\Users\jimmy\source\repos\CibertecFinal\Cibertec.UnitOfWork\obj\Debug\Cibertec.UnitOfWork.csproj.AssemblyReference.cache
+C:\Users\jimmy\source\repos\CibertecFinal\Cibertec.UnitOfWork\obj\Debug\Cibertec.UnitOfWork.csproj.CoreCompileInputs.cache
+C:\Users\jimmy\source\repos\CibertecFinal\Cibertec.UnitOfWork\obj\Debug\Cibertec.UnitOfWork.csproj.CopyComplete
+C:\Users\jimmy\source\repos\CibertecFinal\Cibertec.UnitOfWork\obj\Debug\Cibertec.UnitOfWork.dll
+C:\Users\jimmy\source\repos\CibertecFinal\Cibertec.UnitOfWork\obj\Debug\Cibertec.UnitOfWork.pdb

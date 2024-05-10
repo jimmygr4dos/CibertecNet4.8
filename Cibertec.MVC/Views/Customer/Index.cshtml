@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@ViewBag.Dato - @ViewBag.ModelName</h2>
+
+@*Bootstrap Messages Helper*@
+@Messages.AlertMessage()
+
+@*<p>MessageLog: @ViewBag.MessageLog</p>*@
+
+<p>
+    <a href="#"
+       onclick="cibertec.getModal('@Url.Action("Create")'); return false;"
+       data-toggle="modal"
+       data-target="#modal-container"
+       class="btn btn-success btn-sm">
+        <span class="glyphicon glyphicon-plus"></span> Nuevo
+    </a>
+</p>
+
+<div class="pagination"></div>
+<div class="content"></div>
+<div class="pagination"></div>
+
+@*@Html.Partial("_List")*@
+
+@*Bootstrap Modal Helper*@
+@Modal.GetModal("Customer", "customer.closeModal();")
+
+@*Paginación*@
+<script src="~/Scripts/jquery.bootpag.min.js" type="text/javascript"></script>
+<script src="~/App/cibertec.js" type="text/javascript"></script>
+<script src="~/App/customer.js" type="text/javascript"></script>
+
+@*SignalR*@
+<script src="~/Scripts/jquery.signalR-2.4.3.js"></script>
+<script src="/signalr/hubs"></script>
+<script type="text/javascript">
+    $(function () {
+        var customerHub = $.connection.customerHub;
+        $.connection.hub.start().done(function () {
+            console.log("Conectado al HUB");
+        })
+    })
+</script>

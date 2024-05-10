@@ -1,0 +1,24 @@
+﻿@model  IEnumerable<Cibertec.Models.Customers>
+
+@{
+    ViewBag.Title = "Listado";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@ViewBag.Dato - @ViewBag.ModelName</h2>
+<table class="table-bordered table-striped">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Country)
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <th>
+                @Html.DisplayFor(modelitem => item.Country)
+            </th>
+        </tr>
+    }
+</table>

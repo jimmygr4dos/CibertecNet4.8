@@ -1,0 +1,44 @@
+﻿@model IEnumerable<Cibertec.Models.Customers>
+
+@{
+    ViewBag.Title = "Lista";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Lista</h2>
+@using (Html.BeginForm("DetalleCliente", "Customer", FormMethod.Post, new { id="clienteForm" }))
+{
+    <label asp-for="SelectedCustomerId">Seleccionar Cliente</label>
+    <select asp-for="SelectedCustomerId" class="form-control" name="SelectedCustomerId">
+        <option value="">--Seleccionar--</option>
+        @foreach (var customer in Model)
+        {
+            <option value="@customer.CustomerID">@customer.ContactName</option>
+        }
+    </select>
+    <button type="button" class="btn btn-primary" onclick="obtenerDetalleCliente();">Ver Detalle del Cliente</button>
+}
+
+<div id="detalleClienteContainer"></div>
+
+@section scripts 
+{
+    <script>
+        function obtenerDetalleCliente() {
+            var form = $('#clienteForm');
+            console.log({
+                url: form.attr('action'),
+                type: form.attr('method'),
+            })
+            $.ajax({
+                url: form.attr('action'),
+                type: form.attr('method'),
+                data: form.serialize(),
+                success: function (result) {
+                    $('#detalleClienteContainer').html(result);
+                }
+            });
+            return false;
+        }
+    </script>
+}

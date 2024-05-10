@@ -1,0 +1,24 @@
+﻿@model IEnumerable<Cibertec.MVC.Models.VmCustomer>
+@{
+    ViewBag.Title = "ListaClientes";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Lista de Clientes desde un Store Procedure</h2>
+<table class="table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Customer ID</th>
+            <th>Contacto</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var customervm in Model)
+        {
+            <tr>
+                <td>@customervm.CustomerID</td>
+                <td>@customervm.ContactName</td>
+            </tr>
+        }
+    </tbody>
+</table>
